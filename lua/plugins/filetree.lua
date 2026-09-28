@@ -3,6 +3,8 @@ return {
     "nvim-neo-tree/neo-tree.nvim",
     branch = "v3.x",
 
+    hijack_netrw_behavior = "disabled",
+
     dependencies = {
       "nvim-lua/plenary.nvim",
       "nvim-tree/nvim-web-devicons",
